@@ -1,0 +1,72 @@
+@import "https://fonts.googleapis.com/css?family=Roboto";
+
+.cbfw-default {
+    position: fixed;
+    bottom: 0px;
+    right: 40px;
+    background-color: #666;
+    border-top: 6px solid #fff;
+    border-left: 6px solid #fff;
+    border-right: 6px solid #fff;
+    padding: 10px 10px 8px 10px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 0px 8px #B2B2B2;
+    -webkit-box-shadow: 0px 0px 8px #B2B2B2;
+    z-index: 10000;
+}
+
+.cbfw-default img {
+    width: 24px;
+    float: left;
+    position: center;
+    margin: 0 4px;
+}
+
+.cbfw-default a {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    line-height: 1.1em;
+    font-size: 1.1em;
+    padding: 0px;
+}
+
+.cbfw-default a:hover {
+    color: #fff;
+}
+
+.cbfw-small img {
+    margin: 0;
+}
+
+.cbfw-floating {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #0C9;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 10000;
+}
+
+.cbfw-floating img {
+    width: 40px;
+    float: left;
+    position: center;
+    margin: 11px;
+}
+
+.cbfw-floating a {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    line-height: 1.1em;
+    font-size: 1.1em;
+    padding: 0px;
+}
+
+.cbfw-floating a:hover {
+    color: #fff;
+}
